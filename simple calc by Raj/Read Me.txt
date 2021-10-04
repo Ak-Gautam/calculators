@@ -1,0 +1,2 @@
+My name Is Raj 
+Ive made a simple calculator using java where ive used a simple switch case 
