@@ -21,7 +21,7 @@ int main() {
     case '/':
       printf("%ld / %ld = %ld", a, b, a / b);
       break;
-    // if choosen invalid operator
+    // if  choosen invalid operator
     default:
       printf("Error! Please choose valid operator");
   }
