@@ -1,0 +1,31 @@
+#include<stdio.h>
+void main()
+{
+    int a,b,res;
+    char op;
+    printf("Enter a and b values");
+    scanf("%d %d",&a,&b);
+    printf("Enter an  operator(+,-,*,/,%));
+    scanf("%c ",&op);
+    Switch(op);
+    {
+        case '+':res=a+b;
+                 printf("%d ",res);
+                 break;
+        case '-':res=a-b;
+                 printf("%d ",res);
+                 break;
+        case '*':res=a*b;
+                 printf("%d ",res);
+                 break;
+        case '/':res=a/b;
+                 printf("%d ",res);
+                 break;
+        case '%':res=a%b;
+                 printf("%d ",res);
+                 break;
+        default:printf("Invalid operator");
+                break;
+  }
+
+}
